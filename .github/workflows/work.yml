@@ -28,9 +28,6 @@ jobs:
           now = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
           readme_content = f"""# {folder_name}
-
-This project folder was last updated on **{now}**.
-
 ---
 
 _Auto-generated README by GitHub Actions._
